@@ -17,26 +17,26 @@ jobs:
   build:
     runs-on: Ubuntu-20.04
     steps:
-      - uses: TimDaub/hetzner-cloud-deploy-server-action@v2
+      - uses: nicokempe/hetzner-cloud-deploy-action@v2
         with:
-          server-name: "gh-actions-server"
-          server-image: "ubuntu-20.04"
+          server-name: "your_server_name"
           server-type: "cx11"
-          ssh-key-name: "my key name"
+          ssh-key-name: "your_key_name"
           hcloud-token: ${{ secrets.HCLOUD_TOKEN }}
+          snapshot-id: "your_snapshot_id"
 ```
 
 
-1.  [Create a Hetzner Account](https://hetzner.cloud/?ref=zHBLL3AHXP0S)
-1.  Visit the Hetzner Cloud Console at
+1.  [Create a Hetzner Account](https://hetzner.cloud/?ref=yF0QnyIzNviq)
+2.  Visit the Hetzner Cloud Console at
     [console.hetzner.cloud](https://console.hetzner.cloud/), select your
     project, and create a new Read & Write API token ("Security" => "API
     Tokens").
-1. In the "Security" tab in the Hetzner Cloud Console, you can check your ssh
+3. In the "Security" tab in the Hetzner Cloud Console, you can check your ssh
    key's name.
-1. Add the Hetzner API token to your GitHub repositories secrets ("Settings" =>
+4. Add the Hetzner API token to your GitHub repositories secrets ("Settings" =>
    "Secrets") as `HCLOUD_TOKEN`.
-1. To know which `server-images` and `server-types` Hetzner provides, check the
+5. To know which `server-images` and `server-types` Hetzner provides, check the
    [FAQ](#FAQ).
 
 ### Notes
