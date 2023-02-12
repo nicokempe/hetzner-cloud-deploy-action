@@ -1,6 +1,6 @@
-name: "TimDaub/hetzner-cloud-deploy-server-action"
+name: "nicokempe/hetzner-cloud-deploy-action"
 description: "Deploy a Hetzner Cloud Server from a GitHub Action"
-author: "Tim Daubenschütz"
+author: "Tim Daubenschütz, Nico Kempe"
 inputs:
   server-name:
     description: "The name your server should be initiated with."
