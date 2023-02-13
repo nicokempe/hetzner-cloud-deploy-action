@@ -1,6 +1,6 @@
 {
-  "name": "hetzner-cloud-deploy-server-action",
-  "version": "0.0.1",
+  "name": "hetzner-cloud-deploy-action",
+  "version": "v2023.2.1",
   "description": "Deploy a Hetzner Cloud Server from a GitHub Action.",
   "main": "deploy.js",
   "scripts": {
