@@ -23,7 +23,6 @@ jobs:
           server-type: "cx11"
           ssh-key-name: "your_key_name"
           hcloud-token: ${{ secrets.HCLOUD_TOKEN }}
-          snapshot-id: "your_snapshot_id"
 ```
 
 
