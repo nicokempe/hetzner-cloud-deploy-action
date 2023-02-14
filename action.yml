@@ -33,9 +33,6 @@ inputs:
     description: "Gives Hetzner some time (in Ms) to assign an IP to a server."
     required: false
     default: 60000
-  snapshot-id:
-    description: "The ID of the Hetzner Cloud snapshot to be used for the server deployment."
-    required: false
 
 runs:
   using: 'node12'
