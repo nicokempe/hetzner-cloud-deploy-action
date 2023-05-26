@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@vercel/ncc": "0.36.1",
-    "ava": "5.2.0",
+    "ava": "5.3.0",
     "expressively-mocked-fetch": "0.2.3",
     "proxyquire": "2.1.3"
   }
